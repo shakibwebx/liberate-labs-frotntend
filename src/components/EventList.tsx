@@ -3,7 +3,6 @@ import { getEvents } from "../api/events";
 import type { IEvent } from "../types/event";
 import EventCard from "./EventCard";
 
-
 type CategoryFilter = "all" | "Work" | "Personal" | "Other";
 
 export default function EventList() {
