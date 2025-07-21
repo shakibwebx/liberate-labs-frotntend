@@ -1,4 +1,5 @@
-import { createContext, useContext, useState, ReactNode } from "react";
+/* eslint-disable react-refresh/only-export-components */
+import { createContext, useContext, useState, type ReactNode } from "react";
 import Notification from "../components/Notifications";
 
 interface NotificationData {

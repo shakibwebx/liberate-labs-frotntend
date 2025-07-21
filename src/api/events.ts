@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { IEvent } from "../types/event";
 
-const API_URL = "http://localhost:5000/api"; // adjust if your backend URL differs
+const API_URL = "https://event-shcedule-server.vercel.app/api"; // adjust if your backend URL differs
 
 export const getEvents = async () => {
   const res = await axios.get(`${API_URL}/events`);
